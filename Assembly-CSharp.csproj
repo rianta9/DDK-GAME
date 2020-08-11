@@ -69,6 +69,8 @@
     <Compile Include="Assets\Scripts\DeathZone.cs" />
     <Compile Include="Assets\Scripts\Demon.cs" />
     <Compile Include="Assets\Scripts\DemonAutoAttaking.cs" />
+    <Compile Include="Assets\Scripts\DemonIdle.cs" />
+    <Compile Include="Assets\Scripts\DemonMoveAround.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>T:/SourcesGame/GameCuuLang/GameCuuLang/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>

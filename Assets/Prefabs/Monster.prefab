@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 7194907007373257282}
   - component: {fileID: 7194907007373257286}
   - component: {fileID: 7194907007373257285}
-  - component: {fileID: 7194907007373257287}
   - component: {fileID: 6356327894053858639}
+  - component: {fileID: 5522265841836988658}
   m_Layer: 0
   m_Name: Monster
   m_TagString: Enemy
@@ -150,24 +150,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.89, y: 2.34}
   m_EdgeRadius: 0
---- !u!114 &7194907007373257287
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7194907007373257281}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2f4634ea40cd2b14aabccf7c27e5e2df, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  blood: 200
-  delayTime: 0
-  movedLength: 0
-  maxLength: 0
-  moveDirection: 0
-  anim: {fileID: 0}
 --- !u!61 &6356327894053858639
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -194,3 +176,26 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.2233825, y: 2.34}
   m_EdgeRadius: 0
+--- !u!114 &5522265841836988658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7194907007373257281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48dc4420f2624b54391a1728594d2812, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blood: 200
+  damage: 20
+  delayDieTime: 1
+  delayAttackTime: 0.2
+  delayRunTime: 0.2
+  movedLength: 0
+  maxLength: 3
+  faceDirection: 1
+  isAttaking: 0
+  isRunning: 1
+  anim: {fileID: 0}

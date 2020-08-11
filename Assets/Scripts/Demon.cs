@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 /*
- Demon tự động di chuyển qua về một vị trí
- Add script này vào những vật thể game mong muốn
- Nhớ set thuộc tính cho từng vật thể game
+ Demon tự động di chuyển qua về một vị trí(Theo hướng ngang).
+ Add script này vào những vật thể game mong muốn.
+ Nhớ set các thuộc tính cần thiết cho demon trong unity.
+ Nhớ set hướng nhìn(faceDirection) cho demon trong unity.
  */
 public class Demon : MonoBehaviour
 {
@@ -99,7 +100,7 @@ public class Demon : MonoBehaviour
                 transform.localScale = rem;
 
                 // cập nhật vị trí demon
-                transform.position += new Vector3(moveDirection * 0.2f, 0, 0);
+                transform.position += new Vector3(moveDirection * 2f, 0, 0);
 
                 // tăng movelength lên 1 khoảng 0.2
                 movedLength += 0.2f;
