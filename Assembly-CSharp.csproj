@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scripts\DemonAutoAttaking.cs" />
     <Compile Include="Assets\Scripts\DemonIdle.cs" />
     <Compile Include="Assets\Scripts\DemonMoveAround.cs" />
+    <Compile Include="Assets\Scripts\HealthBar.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\PlayerComBat.cs" />
     <Compile Include="Assets\Scripts\PlayerMoving.cs" />
