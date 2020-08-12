@@ -66,12 +66,16 @@
     <Compile Include="Assets\Scripts\AutoControlDemon.cs" />
     <Compile Include="Assets\Scripts\AutoMoving.cs" />
     <Compile Include="Assets\Scripts\CameraFollowPlayer.cs" />
+    <Compile Include="Assets\Scripts\CheckGround.cs" />
     <Compile Include="Assets\Scripts\DeathZone.cs" />
     <Compile Include="Assets\Scripts\Demon.cs" />
     <Compile Include="Assets\Scripts\DemonAutoAttaking.cs" />
     <Compile Include="Assets\Scripts\DemonIdle.cs" />
     <Compile Include="Assets\Scripts\DemonMoveAround.cs" />
+    <Compile Include="Assets\Scripts\HealthBar.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\PlayerComBat.cs" />
+    <Compile Include="Assets\Scripts\PlayerMoving.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>T:/SourcesGame/GameCuuLang/GameCuuLang/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
